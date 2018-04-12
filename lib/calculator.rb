@@ -1,13 +1,13 @@
 class Calculator
   def operations(operator, a, b)
 
-    if operator == "add"
+    if operator == "+"
       return  a + b
-    elsif operator == "subtract"
+    elsif operator == "-"
       return  a - b
-    elsif operator == "multiply"
+    elsif operator == "*"
       return a * b
-    elsif operator == "divide"
+    elsif operator == "/"
       return a / b
     end
 
